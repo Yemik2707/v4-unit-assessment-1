@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = 'Git is place where different versions of my code are kept';
 
 //////////////////PROBLEM 2////////////////////
 /*

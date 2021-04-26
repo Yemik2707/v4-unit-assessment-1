@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-let gitDefinition = 'Git is place where different versions of my code are kept';
+let gitDefinition = 'Git is a version control system. It is a place where different versions of code are kept or it basically tracks the progress of our projects';
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@ let gitDefinition = 'Git is place where different versions of my code are kept';
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = 'a website where all our git repositories are stored'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -29,11 +29,14 @@ let gitDefinition = 'Git is place where different versions of my code are kept';
 
 //////////////////PROBLEM 3////////////////////
 /*
-    Create an object called 'init' with 'description' and 'code' properties 
+    Create an object called 'init' with 'c' and 'code' properties 
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = {
+    description: 'initilizes git in the current repo we are working on',
+    code: 'git init'
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,10 @@ let gitDefinition = 'Git is place where different versions of my code are kept';
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone = {
+    description: 'creates a file for the repo that we have copied',
+    code: 'git clone'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +55,10 @@ let gitDefinition = 'Git is place where different versions of my code are kept';
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {
+    description: 'helps us check what stage of the process we are on to push our code to github',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +66,10 @@ let gitDefinition = 'Git is place where different versions of my code are kept';
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {
+    description: 'tells git to track any changes that have been made',
+    code : 'git add .'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +77,10 @@ let gitDefinition = 'Git is place where different versions of my code are kept';
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {
+    description:"after staging our code commit helps us like a check point or save point in our code before pushing the code to github",
+    code: "git commit -m 'message'"
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +88,10 @@ let gitDefinition = 'Git is place where different versions of my code are kept';
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote = {
+    description: 'a common repository that all team members use to exchange their changes',
+    code : 'git remote add origin'
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +99,7 @@ let gitDefinition = 'Git is place where different versions of my code are kept';
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {
+    description: 'once we run the add and commit steps push will push the our code to github',
+    code:'git push'
+}
